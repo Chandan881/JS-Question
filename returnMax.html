@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <titlt></titlt>
+    <script type="text/javascript">
+        function check(p,q,r){
+           if(p>=q && p>=r){
+            return p;
+           }else if(q>=p && q>=r){
+            return q;
+           }else{
+            return r;
+           }
+        }
+
+
+        var p = prompt(" please enter the first number");
+        var q = prompt(" please enter the second number");
+        var r = prompt(" please enter the third number");
+        var x = check(p,q,r);
+        console.log(`${p},${q},${r}: Largest = ${x}`);
+    </script>
+</head>
+
+<body>
+     
+   
+</body>
+</html>

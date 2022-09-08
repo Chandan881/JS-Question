@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <titlt></titlt>
+    <script type="text/javascript">
+        function convert(){
+            var kms = document.getElementById('data').value;
+            const factor = 0.621371;
+            var miles = kms*factor;
+            document.getElementById('result').innerText = `${miles} miles`;
+        }
+    </script>
+</head>
+
+<body>
+     
+    <input type="text" id="data">
+    <button onclick="convert()" >Convert</button>MILES
+    <h1 id="result"></h1>
+</body>
+</html>

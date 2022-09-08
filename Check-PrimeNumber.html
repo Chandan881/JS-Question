@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <titlt></titlt>
+    <script type="text/javascript">
+        var number = prompt( "please enter your number");
+        if( number == 1){
+            console.log(`${number} is neither prime nor composite number`);
+        }else if(number < 1){
+            console.log( `${number} is not a prime number`);
+        }else{
+            for( var i=2; i<number; i++){
+                //15%2 = R : 1
+                //15/2 = R : 7
+                if(number % i == 0){
+                    var result = `${number} is not a prime number`;
+                    break;
+                }else {
+                    var result = `${number} is a prime number`;
+                }
+            }
+            console.log(result);
+        }
+    </script>
+</head>
+
+<body>
+     
+    
+</body>
+</html>
